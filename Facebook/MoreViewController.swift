@@ -25,7 +25,7 @@ class MoreViewController: UIViewController {
     }
     
     @IBAction func onTap(sender: AnyObject) {
-        let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: .ActionSheet)
+        let alertController = UIAlertController(title: "", message: "Are you sure you want to \"Log Out\"?", preferredStyle: .ActionSheet)
 
         let logoutAction = UIAlertAction(title: "Log Out", style: .Destructive) { (action) in
             
