@@ -8,7 +8,7 @@
         <!--Requests View Controller-->
         <scene sceneID="LVF-Ql-I9w">
             <objects>
-                <viewController id="Ybu-AO-jHq" customClass="RequestsViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ybu-AO-jHq" customClass="RequestsViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3l5-un-jot">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +42,7 @@
         <!--Status View Controller-->
         <scene sceneID="0X7-Lz-B9k">
             <objects>
-                <viewController id="efk-9R-Csp" customClass="StatusViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="efk-9R-Csp" customClass="StatusViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wSj-1t-PL7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
         <!--Photo View Controller-->
         <scene sceneID="qbz-c1-JcT">
             <objects>
-                <viewController id="32r-2r-ycL" customClass="PhotoViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="32r-2r-ycL" customClass="PhotoViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MV5-5s-YuT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,7 +96,7 @@
         <!--Checkin View Controller-->
         <scene sceneID="QVn-ui-Gh3">
             <objects>
-                <viewController id="isT-Fa-lxb" customClass="CheckinViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="isT-Fa-lxb" customClass="CheckinViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Hd-9J-oZ8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,7 +123,7 @@
         <!--News Feed View Controller-->
         <scene sceneID="wV2-E1-DEj">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="jsl-X3-Adx" customClass="NewsFeedViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="jsl-X3-Adx" customClass="NewsFeedViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YvG-of-YtV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,7 +201,7 @@
         <!--Login View Controller-->
         <scene sceneID="Xxn-AB-oBF">
             <objects>
-                <viewController id="aL9-gI-L42" customClass="LoginViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aL9-gI-L42" customClass="LoginViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jq9-f6-ESG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -327,7 +327,7 @@
         <!--Messages View Controller-->
         <scene sceneID="5EB-3a-t8P">
             <objects>
-                <viewController id="nee-Su-qRV" customClass="MessagesViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nee-Su-qRV" customClass="MessagesViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2aA-rb-4QA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -361,7 +361,7 @@
         <!--Notifications View Controller-->
         <scene sceneID="fKO-jw-5iU">
             <objects>
-                <viewController id="hJN-qb-nrK" customClass="NotificationsViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hJN-qb-nrK" customClass="NotificationsViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wZv-U3-hWJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -396,7 +396,7 @@
         <!--More View Controller-->
         <scene sceneID="YSz-rm-pkb">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="1bu-ub-nb0" customClass="MoreViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="1bu-ub-nb0" customClass="MoreViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vV8-PJ-hy3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -535,7 +535,7 @@
         <!--Thrillist View Controller-->
         <scene sceneID="JMq-GR-Bq6">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="iDw-bJ-IKM" customClass="ThrillistViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="iDw-bJ-IKM" customClass="ThrillistViewController" customModule="ProtoFacebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F3b-SC-jkg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

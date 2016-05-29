@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "486449B71CEE5566007DC46C"
-               BuildableName = "Facebook.app"
-               BlueprintName = "Facebook"
-               ReferencedContainer = "container:Facebook.xcodeproj">
+               BuildableName = "ProtoFacebook.app"
+               BlueprintName = "ProtoFacebook"
+               ReferencedContainer = "container:ProtoFacebook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "486449CB1CEE5566007DC46C"
-               BuildableName = "FacebookTests.xctest"
-               BlueprintName = "FacebookTests"
-               ReferencedContainer = "container:Facebook.xcodeproj">
+               BuildableName = "ProtoFacebook.xctest"
+               BlueprintName = "ProtoFacebookTests"
+               ReferencedContainer = "container:ProtoFacebook.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "486449D61CEE5566007DC46C"
-               BuildableName = "FacebookUITests.xctest"
-               BlueprintName = "FacebookUITests"
-               ReferencedContainer = "container:Facebook.xcodeproj">
+               BuildableName = "ProtoFacebook.xctest"
+               BlueprintName = "ProtoFacebookUITests"
+               ReferencedContainer = "container:ProtoFacebook.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "486449B71CEE5566007DC46C"
-            BuildableName = "Facebook.app"
-            BlueprintName = "Facebook"
-            ReferencedContainer = "container:Facebook.xcodeproj">
+            BuildableName = "ProtoFacebook.app"
+            BlueprintName = "ProtoFacebook"
+            ReferencedContainer = "container:ProtoFacebook.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "486449B71CEE5566007DC46C"
-            BuildableName = "Facebook.app"
-            BlueprintName = "Facebook"
-            ReferencedContainer = "container:Facebook.xcodeproj">
+            BuildableName = "ProtoFacebook.app"
+            BlueprintName = "ProtoFacebook"
+            ReferencedContainer = "container:ProtoFacebook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "486449B71CEE5566007DC46C"
-            BuildableName = "Facebook.app"
-            BlueprintName = "Facebook"
-            ReferencedContainer = "container:Facebook.xcodeproj">
+            BuildableName = "ProtoFacebook.app"
+            BlueprintName = "ProtoFacebook"
+            ReferencedContainer = "container:ProtoFacebook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

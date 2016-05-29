@@ -45,17 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		486449B81CEE5566007DC46C /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486449B81CEE5566007DC46C /* ProtoFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		486449BB1CEE5566007DC46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486449BD1CEE5566007DC46C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		486449C01CEE5566007DC46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486449C21CEE5566007DC46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486449C51CEE5566007DC46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486449C71CEE5566007DC46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		486449CC1CEE5566007DC46C /* FacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486449CC1CEE5566007DC46C /* ProtoFacebook.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoFacebook.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		486449D01CEE5566007DC46C /* FacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTests.swift; sourceTree = "<group>"; };
 		486449D21CEE5566007DC46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		486449D71CEE5566007DC46C /* FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486449D71CEE5566007DC46C /* ProtoFacebook.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoFacebook.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		486449DB1CEE5566007DC46C /* FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUITests.swift; sourceTree = "<group>"; };
 		486449DD1CEE5566007DC46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486449EB1CEE58EC007DC46C /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
@@ -109,9 +109,9 @@
 		486449B91CEE5566007DC46C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				486449B81CEE5566007DC46C /* Facebook.app */,
-				486449CC1CEE5566007DC46C /* FacebookTests.xctest */,
-				486449D71CEE5566007DC46C /* FacebookUITests.xctest */,
+				486449B81CEE5566007DC46C /* ProtoFacebook.app */,
+				486449CC1CEE5566007DC46C /* ProtoFacebook.xctest */,
+				486449D71CEE5566007DC46C /* ProtoFacebook.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		486449B71CEE5566007DC46C /* Facebook */ = {
+		486449B71CEE5566007DC46C /* ProtoFacebook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 486449E01CEE5566007DC46C /* Build configuration list for PBXNativeTarget "Facebook" */;
+			buildConfigurationList = 486449E01CEE5566007DC46C /* Build configuration list for PBXNativeTarget "ProtoFacebook" */;
 			buildPhases = (
 				486449B41CEE5566007DC46C /* Sources */,
 				486449B51CEE5566007DC46C /* Frameworks */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = Facebook;
+			name = ProtoFacebook;
 			productName = Facebook;
-			productReference = 486449B81CEE5566007DC46C /* Facebook.app */;
+			productReference = 486449B81CEE5566007DC46C /* ProtoFacebook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		486449CB1CEE5566007DC46C /* FacebookTests */ = {
+		486449CB1CEE5566007DC46C /* ProtoFacebookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 486449E31CEE5566007DC46C /* Build configuration list for PBXNativeTarget "FacebookTests" */;
+			buildConfigurationList = 486449E31CEE5566007DC46C /* Build configuration list for PBXNativeTarget "ProtoFacebookTests" */;
 			buildPhases = (
 				486449C81CEE5566007DC46C /* Sources */,
 				486449C91CEE5566007DC46C /* Frameworks */,
@@ -191,14 +191,14 @@
 			dependencies = (
 				486449CE1CEE5566007DC46C /* PBXTargetDependency */,
 			);
-			name = FacebookTests;
+			name = ProtoFacebookTests;
 			productName = FacebookTests;
-			productReference = 486449CC1CEE5566007DC46C /* FacebookTests.xctest */;
+			productReference = 486449CC1CEE5566007DC46C /* ProtoFacebook.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		486449D61CEE5566007DC46C /* FacebookUITests */ = {
+		486449D61CEE5566007DC46C /* ProtoFacebookUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 486449E61CEE5566007DC46C /* Build configuration list for PBXNativeTarget "FacebookUITests" */;
+			buildConfigurationList = 486449E61CEE5566007DC46C /* Build configuration list for PBXNativeTarget "ProtoFacebookUITests" */;
 			buildPhases = (
 				486449D31CEE5566007DC46C /* Sources */,
 				486449D41CEE5566007DC46C /* Frameworks */,
@@ -209,9 +209,9 @@
 			dependencies = (
 				486449D91CEE5566007DC46C /* PBXTargetDependency */,
 			);
-			name = FacebookUITests;
+			name = ProtoFacebookUITests;
 			productName = FacebookUITests;
-			productReference = 486449D71CEE5566007DC46C /* FacebookUITests.xctest */;
+			productReference = 486449D71CEE5566007DC46C /* ProtoFacebook.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 486449B31CEE5566007DC46C /* Build configuration list for PBXProject "Facebook" */;
+			buildConfigurationList = 486449B31CEE5566007DC46C /* Build configuration list for PBXProject "ProtoFacebook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				486449B71CEE5566007DC46C /* Facebook */,
-				486449CB1CEE5566007DC46C /* FacebookTests */,
-				486449D61CEE5566007DC46C /* FacebookUITests */,
+				486449B71CEE5566007DC46C /* ProtoFacebook */,
+				486449CB1CEE5566007DC46C /* ProtoFacebookTests */,
+				486449D61CEE5566007DC46C /* ProtoFacebookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -326,12 +326,12 @@
 /* Begin PBXTargetDependency section */
 		486449CE1CEE5566007DC46C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 486449B71CEE5566007DC46C /* Facebook */;
+			target = 486449B71CEE5566007DC46C /* ProtoFacebook */;
 			targetProxy = 486449CD1CEE5566007DC46C /* PBXContainerItemProxy */;
 		};
 		486449D91CEE5566007DC46C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 486449B71CEE5566007DC46C /* Facebook */;
+			target = 486449B71CEE5566007DC46C /* ProtoFacebook */;
 			targetProxy = 486449D81CEE5566007DC46C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -447,8 +447,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = friedland.Facebook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.ProtoFacebook;
+				PRODUCT_NAME = ProtoFacebook;
 			};
 			name = Debug;
 		};
@@ -458,8 +458,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = friedland.Facebook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.ProtoFacebook;
+				PRODUCT_NAME = ProtoFacebook;
 			};
 			name = Release;
 		};
@@ -470,8 +470,8 @@
 				INFOPLIST_FILE = FacebookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = friedland.FacebookTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook.app/Facebook";
+				PRODUCT_NAME = ProtoFacebook;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoFacebook.app/ProtoFacebook";
 			};
 			name = Debug;
 		};
@@ -482,8 +482,8 @@
 				INFOPLIST_FILE = FacebookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = friedland.FacebookTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook.app/Facebook";
+				PRODUCT_NAME = ProtoFacebook;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoFacebook.app/ProtoFacebook";
 			};
 			name = Release;
 		};
@@ -493,7 +493,7 @@
 				INFOPLIST_FILE = FacebookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = friedland.FacebookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProtoFacebook;
 				TEST_TARGET_NAME = Facebook;
 			};
 			name = Debug;
@@ -504,7 +504,7 @@
 				INFOPLIST_FILE = FacebookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = friedland.FacebookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProtoFacebook;
 				TEST_TARGET_NAME = Facebook;
 			};
 			name = Release;
@@ -512,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		486449B31CEE5566007DC46C /* Build configuration list for PBXProject "Facebook" */ = {
+		486449B31CEE5566007DC46C /* Build configuration list for PBXProject "ProtoFacebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				486449DE1CEE5566007DC46C /* Debug */,
@@ -521,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		486449E01CEE5566007DC46C /* Build configuration list for PBXNativeTarget "Facebook" */ = {
+		486449E01CEE5566007DC46C /* Build configuration list for PBXNativeTarget "ProtoFacebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				486449E11CEE5566007DC46C /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		486449E31CEE5566007DC46C /* Build configuration list for PBXNativeTarget "FacebookTests" */ = {
+		486449E31CEE5566007DC46C /* Build configuration list for PBXNativeTarget "ProtoFacebookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				486449E41CEE5566007DC46C /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		486449E61CEE5566007DC46C /* Build configuration list for PBXNativeTarget "FacebookUITests" */ = {
+		486449E61CEE5566007DC46C /* Build configuration list for PBXNativeTarget "ProtoFacebookUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				486449E71CEE5566007DC46C /* Debug */,
