@@ -11,7 +11,9 @@ import UIKit
 class FeedViewController: UIViewController {
     
     var tappedPhoto: UIImageView!
-
+    var photoTransition: PhotoTransition!
+    var window = UIApplication.sharedApplication().keyWindow
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,16 +38,13 @@ class FeedViewController: UIViewController {
         
         destinationViewController.image = self.tappedPhoto.image
         
-    }
+        // custom transition
+        destinationViewController.modalPresentationStyle = UIModalPresentationStyle.Custom
+        photoTransition = PhotoTransition()
+        destinationViewController.transitioningDelegate = photoTransition
+        photoTransition.duration = 0.2
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
     }
-    */
 
 }

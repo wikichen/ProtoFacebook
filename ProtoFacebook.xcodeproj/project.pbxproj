@@ -23,6 +23,9 @@
 		486449F81CEE62C6007DC46C /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486449F71CEE62C6007DC46C /* StatusViewController.swift */; };
 		486449FA1CEE62D3007DC46C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486449F91CEE62D3007DC46C /* PhotoViewController.swift */; };
 		486449FC1CEE62D9007DC46C /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486449FB1CEE62D9007DC46C /* CheckinViewController.swift */; };
+		7C06283E1D175D200074E6C0 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06283C1D175D200074E6C0 /* BaseTransition.swift */; };
+		7C06283F1D175D200074E6C0 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06283D1D175D200074E6C0 /* FadeTransition.swift */; };
+		7C0628411D17CF6C0074E6C0 /* PhotoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0628401D17CF6C0074E6C0 /* PhotoTransition.swift */; };
 		7C36CF221CF7915900C51FB8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36CF211CF7915900C51FB8 /* Common.swift */; };
 		7C36CF241CF791ED00C51FB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36CF231CF791ED00C51FB8 /* LoginViewController.swift */; };
 		7C3E258D1D13D06900EEB0E2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3E258C1D13D06900EEB0E2 /* FeedViewController.swift */; };
@@ -69,6 +72,9 @@
 		486449F71CEE62C6007DC46C /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusViewController.swift; path = ../StatusViewController.swift; sourceTree = "<group>"; };
 		486449F91CEE62D3007DC46C /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../PhotoViewController.swift; sourceTree = "<group>"; };
 		486449FB1CEE62D9007DC46C /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckinViewController.swift; path = ../CheckinViewController.swift; sourceTree = "<group>"; };
+		7C06283C1D175D200074E6C0 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		7C06283D1D175D200074E6C0 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		7C0628401D17CF6C0074E6C0 /* PhotoTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTransition.swift; sourceTree = "<group>"; };
 		7C36CF211CF7915900C51FB8 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		7C36CF231CF791ED00C51FB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C3E258C1D13D06900EEB0E2 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 		486449BA1CEE5566007DC46C /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				7C06283C1D175D200074E6C0 /* BaseTransition.swift */,
+				7C0628401D17CF6C0074E6C0 /* PhotoTransition.swift */,
+				7C06283D1D175D200074E6C0 /* FadeTransition.swift */,
 				7C36CF211CF7915900C51FB8 /* Common.swift */,
 				486449F71CEE62C6007DC46C /* StatusViewController.swift */,
 				486449F91CEE62D3007DC46C /* PhotoViewController.swift */,
@@ -300,9 +309,11 @@
 				486449BE1CEE5566007DC46C /* ViewController.swift in Sources */,
 				486449BC1CEE5566007DC46C /* AppDelegate.swift in Sources */,
 				7C36CF221CF7915900C51FB8 /* Common.swift in Sources */,
+				7C06283E1D175D200074E6C0 /* BaseTransition.swift in Sources */,
 				486449F21CEE5B4C007DC46C /* NotificationsViewController.swift in Sources */,
 				7C3E258D1D13D06900EEB0E2 /* FeedViewController.swift in Sources */,
 				486449EE1CEE5A35007DC46C /* RequestsViewController.swift in Sources */,
+				7C06283F1D175D200074E6C0 /* FadeTransition.swift in Sources */,
 				486449F61CEE5E4A007DC46C /* ThrillistViewController.swift in Sources */,
 				7C3E25911D13DF2800EEB0E2 /* CameraRollViewController.swift in Sources */,
 				486449F81CEE62C6007DC46C /* StatusViewController.swift in Sources */,
@@ -310,6 +321,7 @@
 				486449EC1CEE58EC007DC46C /* NewsFeedViewController.swift in Sources */,
 				7C36CF241CF791ED00C51FB8 /* LoginViewController.swift in Sources */,
 				486449FA1CEE62D3007DC46C /* PhotoViewController.swift in Sources */,
+				7C0628411D17CF6C0074E6C0 /* PhotoTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
